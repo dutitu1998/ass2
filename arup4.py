@@ -5,8 +5,8 @@ from mpl_toolkits.mplot3d import Axes3D
 # Part (a) 
 def plot_contours(): 
     # Create grid points 
-    x = np.linspace(-5, 5, 100) 
-    y = np.linspace(-5, 5, 100) 
+    x = np.linspace(-10, 10, 100) 
+    y = np.linspace(-10, 10, 100) 
     X, Y = np.meshgrid(x, y) 
      
     # Plot (i) f(x,y) = 4x^2 + y^2 
